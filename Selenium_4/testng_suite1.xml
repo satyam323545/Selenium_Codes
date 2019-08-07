@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_1">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="satyam.mandal.testng.Before_After_annotation"/>
+      <class name="satyam.mandal.testng.excel_test"/>
+      <class name="satyam.mandal.excel_test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite_1 -->
