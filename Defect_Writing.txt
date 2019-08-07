@@ -1,0 +1,24 @@
+Assign:
+URL:
+
+Defect Title: After basic money transfer, amount deducted is not terms of the amount paid.
+
+Description:
+	Expected result: Amount deducted from main balance should be equal to the amount sent to other user. The current balance is expected to be Rs. 12000.
+
+	Actual result: When a amount of Rs. 3000 is sent from Account A to Account B from available balance of Rs. 15000.The amount deducted is Rs. 6000. The current 	balance is reduced to Rs. 9000.
+
+	Steps to reproduce the defect:
+		1. Open Browser.
+		2. Enter URL for the bank.
+		3. Choose Login tab.
+		4. Enter USER ID and IPIN.
+		5. Select Banking tab.
+		6. Select Transfer funds tab.
+		7. Make bank selections.
+		8. Add new Payee.
+		9. Add Account Number, City, Nickname and Submit the data.
+		10. Select from account and to account and fund amount and select SUBMIT.
+		11. Select transfer date and select Confirm.
+		12. Accept terms and conditions and select Confirm.
+		12. Make payment.

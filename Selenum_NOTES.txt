@@ -1,0 +1,25 @@
+What is meant by automation?
+Automation is the process of carrying out the activities using a suitable tool which were other wise carried out manually.
+
+What is test automation?
+Test automation is the process of carrrying out the test case execution by using a suitable tool to reduce the manual effort to a greater extent.
+
+Selenium IDE:
+
+Used for record and playback of the scripts.
+Its add on for firefox browser.
+We can run the recorded scripts against other browsers.
+
+Selenium RC:
+Stands for Remote Control
+Uses prog lang to write scripts.
+Uses Selenium RC server.
+
+Disadvantages of using Selenium web driver:
+Doesnt has its own reporting capability.
+Capcha and bar code cannot be tested.
+Difficult to test image based applications.
+
+Selenium grid:
+Used for execution in multiple web browsers with supported os in parallel.
+Can run scripts on different browsers in parallel.
